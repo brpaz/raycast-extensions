@@ -95,8 +95,7 @@
       "title": "Auto Save Location",
       "description": "Set where to save markdown files",
       "type": "directory",
-      "required": false,
-      "label": "File Location"
+      "required": false
     }
   ],
   "dependencies": {
@@ -115,6 +114,7 @@
     "@types/lodash": "^4.17.16",
     "@types/node": "20.8.10",
     "@types/react": "19.0.12",
+    "@vicinae/api": "^0.16.10",
     "eslint": "^8.57.1",
     "prettier": "^3.5.3",
     "typescript": "^5.8.2"

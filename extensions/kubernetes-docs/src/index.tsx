@@ -39,7 +39,6 @@ export default function main() {
     if (!webPages || !webPages.value) return;
 
     const items = webPages.value.filter(({ language: lang }) => lang === language);
-
     setItems(items);
   };
 

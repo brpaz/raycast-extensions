@@ -231,7 +231,7 @@ const SingleTodoItem = ({ item, idx, sectionKey }: { item: TodoItem; idx: number
           : { source: Icon.Circle, tintColor: Color.Red }
       }
       subtitle={`Added ${time}`}
-      title={{ value: item.title, tooltip: item.title }}
+      title={item.title}
     />
   );
 };

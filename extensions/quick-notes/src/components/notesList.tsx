@@ -133,7 +133,7 @@ const NotesList = ({ sText, sTag }: { sText?: string; sTag?: string }) => {
 
   // Sort by tag if user preference is set
   const isCategories = sort === "tags";
-  const noTagNotes = published.filter((n) => n.tags.length === 0);
+  const noTagNotes = published.filter((n) => n.tags?.length === 0);
 
   // Custom search
   const filterList = (searchText: string) => {

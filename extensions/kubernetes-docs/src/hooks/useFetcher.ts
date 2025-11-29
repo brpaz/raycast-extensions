@@ -3,7 +3,7 @@ import axios, { AxiosResponse } from "axios";
 import { FetcherArgs } from "../types";
 
 const instance = axios.create({
-  baseURL: "https://kubernetes-io-search.azurewebsites.net/api/bingsearchproxy",
+  baseURL: "https://kubernetes.io/search",
 });
 
 const useFetcher = () => {

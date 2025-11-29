@@ -133,6 +133,7 @@
     "@raycast/eslint-config": "^1.0.8",
     "@types/node": "^20.14.9",
     "@types/react": "^18.3.3",
+    "@vicinae/api": "^0.16.8",
     "eslint": "^8.53.0",
     "prettier": "^3.3.2",
     "typescript": "^5.5.3"
