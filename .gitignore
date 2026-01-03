@@ -179,3 +179,5 @@ bun.lock
 
 scripts/internal/**
 .claude**
+
+vicinae-env.d.ts
